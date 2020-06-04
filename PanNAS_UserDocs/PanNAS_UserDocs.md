@@ -1,5 +1,5 @@
 # 1. User Docs 用户文档  
-系统: <kbd>Pan_NAS_RPi</kbd> 版本：<kbd>V1.0</kbd> 最后编辑时间：<kbd>*20/06/03*</kbd>  
+系统: <kbd>Pan_NAS_RPi</kbd> 版本：<kbd>V1.1</kbd> 最后编辑时间：<kbd>*20/06/04*</kbd>  
 
 # 2. Catalog 目录
 <!-- TOC -->
@@ -14,6 +14,7 @@
     - [5.2. 网页端访问](#52-网页端访问)
     - [5.3. 网盘拓展功能](#53-网盘拓展功能)
 - [6. Jellyfin](#6-jellyfin)
+- [7. 版本更新日志](#7-版本更新日志)
 
 <!-- /TOC -->
 
@@ -125,6 +126,16 @@
 
 *[返回目录](#2-catalog-目录)*  
 
+<!-- # 6. BaiduPCS  百度网盘网页版
+* [baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)是一个百度网盘网页版软件。  
+1. 局域网访问地址：[BaiduPCS_Local网址](http://192.168.3.66:5299) http://192.168.3.66:5299  
+1. 外网访问地址：[BaiduPCS_DNS网址](http://OMV.PWB5.top:5299) http://OMV.PWB5.top:5299  
+
+    <img src="./pic/微信截图_20200604151228.png" width="100%">
+
+1. 登录：
+    + 注意：目前使用账号密码登录可能失败，目前无法通过分享链接下载。 -->
+
 # 6. Jellyfin
 * [Jellyfin](https://jellyfin.org/) 是一个自由的软件媒体系统，用于控制和管理媒体和流媒体。  
 1. 局域网访问地址：[Jellyfin_Local网址](http://192.168.3.66:8096) http://192.168.3.66:8096  
@@ -146,5 +157,17 @@
     * **电视剧**
         + 同上，文件夹为 /NAS_TVShows
     * **音乐**
+
+*[返回目录](#2-catalog-目录)*  
+
+# 7. 版本更新日志
+1. V1.0 20/06/03
+    * 新增：
+        + [Zero Tier 虚拟局域网](#3-zero-tier-虚拟局域网) ;  
+        + [Open Media Vault 网络附属存储系统](#4-open-media-vault-网络附属存储系统) ;  
+        + [NextCloud 私有云网盘](#5-nextcloud-私有云网盘) ;  
+        + [Jellyfin](#6-jellyfin) ;
+<!-- 1. V1.1 20/06/04
+    * 新增： -->
 
 *[返回目录](#2-catalog-目录)*  
