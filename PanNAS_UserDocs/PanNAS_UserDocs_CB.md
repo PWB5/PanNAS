@@ -15,8 +15,8 @@
     - [5.3. 网盘拓展功能](#53-网盘拓展功能)
 - [6. Jellyfin 家庭多媒体系统](#6-jellyfin-家庭多媒体系统)
 - [7. Rsync 照片同步系统](#7-rsync-照片同步系统)
-- [8. 导航首页](#8-导航首页)
-- [9. 版本更新日志](#9-版本更新日志)
+- [8. PanHomeCloud 导航首页](#8-panhomecloud-导航首页)
+- [9. Version Log 版本日志](#9-version-log-版本日志)
 
 <!-- /TOC -->
 
@@ -190,7 +190,7 @@
 
 *[返回目录](#2-catalog-目录)*   -->
 
-# 8. 导航首页
+# 8. PanHomeCloud 导航首页
 * 可以通过导航首页访问服务器的众多功能。
 1. 局域网访问地址：[PanHomeCloud_Local网址](http://192.168.3.3) http://192.168.3.3
 1. ZeroTier访问地址：[PanHomeCloud_ZeroTier网址](http://ztcb.pwb5.top/) http://ztcb.pwb5.top/  
@@ -201,7 +201,7 @@
 
 *[返回目录](#2-catalog-目录)*  
 
-# 9. 版本更新日志
+# 9. Version Log 版本日志
 1. V1.0 20/06/03
     * 新增功能：
         + [Zero Tier 虚拟局域网](#3-zero-tier-虚拟局域网) ;  
