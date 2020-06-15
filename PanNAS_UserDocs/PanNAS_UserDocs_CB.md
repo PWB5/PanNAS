@@ -79,7 +79,7 @@
     <img src="./pic/微信截图_20200603092720.png" width=75%>  
 
     <details>
-    <summary>**显示详细教程**（点击此处）</summary>  
+    <summary><u>显示详细教程</u>（点击此处）</summary>  
     
     * 局域网访问：文件夹地址栏输入：`\\NAS-CB`  
     * 外网访问：文件夹地址栏输入：`\\SMB.PWB5.TOP`
