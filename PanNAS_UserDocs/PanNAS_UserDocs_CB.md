@@ -30,27 +30,27 @@
   
     * 软件安装包下载地址：[官方下载网址](https://www.zerotier.com/download/) https://www.zerotier.com/download/  
     1. Windows：  
-        <img src="./pic/ZeroTier_Install.png" width='75%'>  
+        <img src="http://server.sfy.pan7.top/lychee/uploads/big/65066e812a873b5fc250055fd8f4b753.png" width='75%'>  
 
         + 安装过程：略……  
             - 软件安装位置：（无限制）
         + 双击图标，运行软件
         + 配置：  
             - 右键点击系统托盘处软件图标，点击 <kbd>Join Network…</kbd>   
-            <img src="./pic/176ae0f90a1dc0275afc1b77192054d.png" width=40%>  
+            <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/826bd7be3d9cf7a0f8279a5f03e891b2.png" width=40%>  
 
             - 输入：`6ab565387af53c59`  
-            <img src="./pic/481977efaf8f12b5ec5e1ed5440d481.png" width=40%>  
+            <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/1094df7143869a7d4878fe6090346280.png" width=40%>  
 
             - 网络：选择 <kbd>是</kbd>  
-            <img src="./pic/5d51675868707839fef5ff34ff9e50a.png" width=40%>   
+            <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/98a9b37cc12c3a4fbd3aae1629543b58.png" width=40%>   
 
             - 可选配置：开机自启：  
                 点击 <kbd>Preferences</kbd>  
-                <img src="./pic/66efdbfe2379d656dc8b2bdeb63493a.png" width=40%>   
+                <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/57f20b9d42545fdc46ed77eff0a88ab2.png" width=40%>   
 
                 勾选 <kbd>Launch ZeroTier On Startup</kbd>  
-                <img src="./pic/b0d1f70f8843e6f9d671ef2f73afd0a.png" width=40%>   
+                <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/47bd663586879442bafdbbe68de24d92.png" width=40%>   
 
     1.ios(iPhone/iPad…)：  
         + 因为~~富强、民主、文明、和谐、自由、平等、公正、法治、爱国、敬业、诚信、友善~~，  
@@ -76,12 +76,12 @@
     
     * 初始密码为 <kbd>22331820</kbd>    
         打开 [OpenMediaVault 用户管理](http://smb.pwb5.top:88) 网页，登录后按如下操作即可修改密码。  
-        <img src="./pic/微信截图_20200602214550.png" width=75%>  
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/0578374d3770b0e33462dfac2731dbc3.png" width=75%>  
     </details>
 
 ## 4.1. SMB 网络文件共享  
 * 服务器信息块（Server Message Block，SMB）是一个网络文件共享协议，它允许应用程序和终端用户从远端的文件服务器访问文件资源。  
-    <img src="./pic/微信截图_20200603092720.png" width=50%>  
+    <img src="http://server.sfy.pan7.top/lychee/uploads/big/c6865281c83d2412adfbd07c20a15f29.png" width=50%>  
 
     <details>
     <summary><u>显示详细教程</u>（点击此处）</summary>  
@@ -90,9 +90,9 @@
     * 外网访问：文件夹地址栏输入：`\\SMB.PWB5.TOP`
     * 输入账号密码即可使用。
     * 映射网络驱动器 到 此电脑：  
-        <img src="./pic/73d40facd2d4ec0ba179fa53c151a02.png" width=40%>   
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/4d0c7ad34274c72e551444fff16c04f0.png" width=40%>   
     * 勾选 <kbd>登录时重新连接</kbd> ，则电脑开机后，会自动重新连接SMB。
-        <img src="./pic/93c66d8ca870d478119e5a49e935377.png" width=75%>  
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/a03fa9a9a94bd269bbe5e4f8f1830c7b.png" width=75%>  
     </details>  
       
 
@@ -106,7 +106,7 @@
 1. 局域网访问地址：[NextCloud_Local网址](http://192.168.3.3:2020) http://192.168.3.3:2020  
 1. 外网访问地址：[NextCloud_DNS网址](http://nextcloud.pwb5.top:2020) http://nextcloud.pwb5.top:2020  
 
-    <img src="./pic/微信截图_20200603090336.png" width=100%>  
+    <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/02d2cccc656c73fb5e8775772f70fa3f.png" width=100%>  
 
 ## 5.2. 客户端下载安装   
 * 根据需求安装windows、ios客户端。  
@@ -121,13 +121,13 @@
     <summary><u>显示详细教程</u>（点击此处）</summary>  
         
     * 点击网页左上角，打开**功能栏**。  
-    <img src="./pic/2031ca177190b85d7851653a56ac26d.png" width=40%>  
+    <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/dfb6d07d095c1ea7f74fa3226912fdb2.png" width=40%>  
     
     1. **下载器**  
         * 在1中输入下载地址，点击2开始下载。  
-        <img src="./pic/f540ad392dd8f2efa7b9f2101d7ac3c.png" width=80%>   
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/c4e2cb6e1d40ff6b1fde7ae987f9072e.png" width=80%>   
         * 下载完成后，文件自动保存在 <kbd>NAS_Download/Download_NextCloud/Files</kbd> 目录。   
-        <img src="./pic/7777ccc91a1b838690ef28c07a16cc7.png" width=80%>   
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/e76bdea47610b229e4219310258d4d18.png" width=80%>   
     1. **Flowupload 大文件上传**
 
     </details>  
@@ -139,7 +139,7 @@
 1. 局域网访问地址：[Jellyfin_Local网址](http://192.168.3.3:8096) http://192.168.3.3:8096  
 1. 外网访问地址：[Jellyfin_DNS网址](http://Jellyfin.PWB5.top:8096) http://Jellyfin.PWB5.top:8096  
 
-    <img src="./pic/微信截图_20200603111121.png" width="100%">  
+    <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/2ccea16ab15ad1600db1d69465d3199f.png" width="100%">  
 
 1. 添加资源到媒体库。
     * **电影**
@@ -149,7 +149,7 @@
                 <summary><u>显示详细教程</u>（点击此处）</summary>  
                 
                 <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/126b8dd8e0c5f125f638483ff3e31c5f.png" width=100%>  
-                <img src="./pic/39fa12963248741bd17fe8a17c88af6.png" width=100%>  
+                <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/d78c2d1e0ddb1362a169b1f506eaeb7a.png" width=100%>  
                 </details>
             - 通过 SMB 上传至 /NAS_Movies 文件夹。  
         + 从网上下载电影：  
