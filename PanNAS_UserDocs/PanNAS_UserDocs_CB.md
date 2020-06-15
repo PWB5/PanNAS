@@ -93,10 +93,10 @@
     * 输入账号密码即可使用。
     * 映射网络驱动器 到 此电脑：  
 
-        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/4d0c7ad34274c72e551444fff16c04f0.png" width=40%>   
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/4d0c7ad34274c72e551444fff16c04f0.png" width=25%>   
     * 勾选 <kbd>登录时重新连接</kbd> ，则电脑开机后，会自动重新连接SMB。
 
-        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/a03fa9a9a94bd269bbe5e4f8f1830c7b.png" width=75%>  
+        <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/a03fa9a9a94bd269bbe5e4f8f1830c7b.png" width=50%>  
     </details>  
       
 
