@@ -1,5 +1,5 @@
 # 1. User Docs 用户文档  
-系统: <kbd>Pan_NAS_RPi</kbd> 版本：<kbd>V1.1</kbd> 最后编辑时间：<kbd>*20/06/04*</kbd>  
+系统: <kbd>Pan_NAS_CB</kbd> 版本：<kbd>V1.2</kbd> 最后编辑时间：<kbd>*20/06/15*</kbd>  
 
 # 2. Catalog 目录
 <!-- TOC -->
@@ -10,11 +10,13 @@
 - [4. Open Media Vault 网络附属存储系统](#4-open-media-vault-网络附属存储系统)
     - [4.1. SMB 网络文件共享](#41-smb-网络文件共享)
 - [5. NextCloud 私有云网盘](#5-nextcloud-私有云网盘)
-    - [5.1. 客户端下载安装](#51-客户端下载安装)
-    - [5.2. 网页端访问](#52-网页端访问)
+    - [5.1. 网页端访问](#51-网页端访问)
+    - [5.2. 客户端下载安装](#52-客户端下载安装)
     - [5.3. 网盘拓展功能](#53-网盘拓展功能)
-- [6. Jellyfin](#6-jellyfin)
-- [7. 版本更新日志](#7-版本更新日志)
+- [6. Jellyfin 家庭多媒体系统](#6-jellyfin-家庭多媒体系统)
+- [7. Rsync 照片同步系统](#7-rsync-照片同步系统)
+- [8. 导航首页](#8-导航首页)
+- [9. 版本更新日志](#9-版本更新日志)
 
 <!-- /TOC -->
 
@@ -79,7 +81,7 @@
     <details>
     <summary><u>显示详细教程</u>（点击此处）</summary>  
     
-    * 局域网访问：文件夹地址栏输入：`\\NAS-PAN`  
+    * 局域网访问：文件夹地址栏输入：`\\NAS-CB`  
     * 外网访问：文件夹地址栏输入：`\\SMB.PWB5.TOP`
     * 输入账号密码即可使用。
     * 映射网络驱动器 到 此电脑：  
@@ -93,26 +95,26 @@
 
 # 5. NextCloud 私有云网盘  
 * [NextCloud](https://nextcloud.com/) 是一个免费专业的私有云存储网盘开源项目，可以架设一套属于自己或团队专属的云同步网盘，从而实现跨平台跨设备文件同步、共享、版本控制、团队协作等功能。  
-## 5.1. 客户端下载安装   
-* [官方下载网址](https://nextcloud.com/install/#install-clients)  
-* 根据需求安装windows、ios客户端。  
-    + windows客户端有 **文件夹同步** 功能。  
-    + 可以不安装客户端，只直接使用网页端。  
 
-    <img src="./pic/微信截图_20200603090746.png" width=100%>  
-
-## 5.2. 网页端访问  
+## 5.1. 网页端访问  
 <!-- 1. [NextCloud_ZeroTier网址](http://192.168.192.125:2020) -->
-1. 局域网访问地址：[NextCloud_Local网址](http://192.168.3.66:2020) http://192.168.3.66:2020  
+1. 局域网访问地址：[NextCloud_Local网址](http://192.168.3.3:2020) http://192.168.3.3:2020  
 1. 外网访问地址：[NextCloud_DNS网址](http://nextcloud.pwb5.top:2020) http://nextcloud.pwb5.top:2020  
 
     <img src="./pic/微信截图_20200603090336.png" width=100%>
+
+## 5.2. 客户端下载安装   
+* [客户端_官方下载网址](https://nextcloud.com/install/#install-clients) 
+* 根据需求安装windows、ios客户端。  
+    + windows客户端有 **文件夹同步** 功能。  
+    + 可以不安装客户端，只直接使用网页端。  
+    <img src="./pic/微信截图_20200603090746.png" width=100%>   
 
 ## 5.3. 网盘拓展功能
 * <details>
     <summary><u>显示详细教程</u>（点击此处）</summary>  
         
-    * 点击网页左上角，打开**功能栏**。
+    * 点击网页左上角，打开**功能栏**。  
     <img src="./pic/2031ca177190b85d7851653a56ac26d.png" width=50%>  
     
     1. **下载器**  
@@ -126,6 +128,41 @@
 
 *[返回目录](#2-catalog-目录)*  
 
+# 6. Jellyfin 家庭多媒体系统
+* [Jellyfin](https://jellyfin.org/) 是一个自由的软件媒体系统，用于控制和管理媒体和流媒体。  
+1. 局域网访问地址：[Jellyfin_Local网址](http://192.168.3.3:8096) http://192.168.3.3:8096  
+1. 外网访问地址：[Jellyfin_DNS网址](http://Jellyfin.PWB5.top:8096) http://Jellyfin.PWB5.top:8096  
+
+    <img src="./pic/微信截图_20200603111121.png" width="100%">
+
+1. 添加资源到媒体库。
+    * **电影**
+        + 导入已下载的电影：  
+            - 通过 NextCloud 网盘的 Flowupload 上传至 /NAS_Movies 文件夹。  
+                <details>
+                <summary><u>显示详细教程</u>（点击此处）</summary>  
+                
+                <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/126b8dd8e0c5f125f638483ff3e31c5f.png" width=100%>  
+                <img src="./pic/39fa12963248741bd17fe8a17c88af6.png" width=100%>  
+                </details>
+            - 通过 SMB 上传至 /NAS_Movies 文件夹。  
+        + 从网上下载电影：  
+            (待完善……)
+            <!-- 使用 [Transmission 下载器](http://ztcb.pwb5.top:9091) 下载电影链接；  
+            登录账号：<kbd>admin</kbd>密码：<kbd>admin</kbd>。 -->
+            <!-- 使用 [Deluge 下载器](http://Jellyfin.PWB5.top:8112) 下载电影链接。登录密码：<kbd>8899</kbd>。 -->
+    * **电视剧**
+        + 同上，文件夹为 /NAS_TVShows
+    * **音乐**
+
+*[返回目录](#2-catalog-目录)*  
+
+# 7. Rsync 照片同步系统
+1. 
+
+
+*[返回目录](#2-catalog-目录)*  
+
 <!-- # 6. BaiduPCS  百度网盘网页版
 * [baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)是一个百度网盘网页版软件。  
 1. 局域网访问地址：[BaiduPCS_Local网址](http://192.168.3.66:5299) http://192.168.3.66:5299  
@@ -136,38 +173,33 @@
 1. 登录：
     + 注意：目前使用账号密码登录可能失败，目前无法通过分享链接下载。 -->
 
-# 6. Jellyfin
-* [Jellyfin](https://jellyfin.org/) 是一个自由的软件媒体系统，用于控制和管理媒体和流媒体。  
-1. 局域网访问地址：[Jellyfin_Local网址](http://192.168.3.66:8096) http://192.168.3.66:8096  
-1. 外网访问地址：[Jellyfin_DNS网址](http://Jellyfin.PWB5.top:8096) http://Jellyfin.PWB5.top:8096  
+*[返回目录](#2-catalog-目录)*  
 
-    <img src="./pic/微信截图_20200603111121.png" width="100%">
+# 8. 导航首页
+* 可以通过导航首页访问服务器的众多功能。
+1. 局域网访问地址：[PanHomeCloud_Local网址](http://192.168.3.3) http://192.168.3.3
+1. ZeroTier访问地址：[PanHomeCloud_ZeroTier网址](http://ztcb.pwb5.top/) http://ztcb.pwb5.top/  
+1. 外网访问地址：[PanHomeCloud_sfy网址](http://server.sfy.pan7.top/) http://server.sfy.pan7.top/  
 
-1. 添加资源到媒体库。
-    * **电影**
-        + 已下载的电影：通过 NextCloud 网盘的 Flowupload 上传至 /NAS_Movie 文件夹。
-            <details>
-            <summary><u>显示详细教程</u>（点击此处）</summary>  
-              
-            <img src="./pic/微信截图_20200603114218.png" width=100%>  
-            <img src="./pic/39fa12963248741bd17fe8a17c88af6.png" width=100%>  
-            </details>
-        + 未下载的电影：电影链接使用 [Deluge 下载器](http://Jellyfin.PWB5.top:8112) 下载。
-            - 登录密码：8899
-    * **电视剧**
-        + 同上，文件夹为 /NAS_TVShows
-    * **音乐**
+    <img src="http://vps1641878.vpszy.sanfengyun.cn/lychee/uploads/big/0b4d3d7dc466afe51d614edb6e0b58be.png" width='100%'>
+
 
 *[返回目录](#2-catalog-目录)*  
 
-# 7. 版本更新日志
+# 9. 版本更新日志
 1. V1.0 20/06/03
-    * 新增：
+    * 新增功能：
         + [Zero Tier 虚拟局域网](#3-zero-tier-虚拟局域网) ;  
         + [Open Media Vault 网络附属存储系统](#4-open-media-vault-网络附属存储系统) ;  
         + [NextCloud 私有云网盘](#5-nextcloud-私有云网盘) ;  
-        + [Jellyfin](#6-jellyfin) ;
-<!-- 1. V1.1 20/06/04
-    * 新增： -->
+        + [Jellyfin 家庭多媒体系统](#6-jellyfin-家庭多媒体系统) ;
+1. V1.1 20/06/10
+    * 新增功能：
+        + [Rsync 照片同步系统](#7-rsync-照片同步系统)
+1. V1.2 20/06/15
+    * 服务器硬件升级迁移：
+        + 使用 Chainedbox 硬件与 Armbian_Mix_With_Navi_1213 固件搭建服务器。
+    * 新增功能：
+        + [导航首页](#8-导航首页)
 
 *[返回目录](#2-catalog-目录)*  

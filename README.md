@@ -1,4 +1,7 @@
-# RPi_NAS_Pan
+# Pan_NAS
 
-## UserDocs
-[UserDocs.md](./PanNAS_UserDocs/PanNAS_UserDocs.md)
+## UserDocs_CB
+[UserDocs_CB.md](./PanNAS_UserDocs/PanNAS_UserDocs_CB.md)
+
+## Other
+[UserDocs_RPi.md](./PanNAS_UserDocs/PanNAS_UserDocs_CB.md)
